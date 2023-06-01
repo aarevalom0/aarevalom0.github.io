@@ -1,0 +1,9 @@
+header {
+    background-color: #f1f1f1; /* Color de fondo del encabezado */
+    text-align: center; /* Alineación del contenido en el encabezado */
+}
+
+header img {
+    width: 100vw; /* Ancho del viewport */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
