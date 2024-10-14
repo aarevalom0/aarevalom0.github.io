@@ -1,17 +1,159 @@
-<html>
-    <head>
-        <title>Página con encabezado de imagen</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <img src="enc.png" alt="Encabezado de imagen">
-        </header>
-<title>Anderson Arevalo M.</title>
-<link rel="shortcut icon" href="1.jpg" />
-<h1> Anderson Arevalo Mendoza 1</h1>
-<h2> Biomedical Engineer</h2>
-<h3> Computer and Systems Engineer primary</h3>
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson Arevalo</title>
+    <link rel="shortcut icon" href="icono.jpg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Anderson Arevalo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container fade-in">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="profile-card">
+                    <div class="profile-info">
+                        <img src="Profile.jpeg" alt="Anderson Arevalo">
+                        <h1>Anderson Arevalo</h1>
+                        <p>Software Engineer | AI Specialist</p>
+                    </div>
+                    <div class="slogan">
+                        <h2>Innovation in each algorithm, optimization in each solution</h2>
+                    </div>
+                    
+                </div>
+                <!-- About Section -->
+                <div class="section-card" id="about">
+                    <h2>About Me</h2>
+                    <p>
+                        Innovative final-year Biomedical and Systems Engineering student with a passion for leveraging cutting-
+                        edge technologies to solve complex challenges. Skilled in machine learning, data science, and software
+                        development, with a proven track record of implementing advanced technological solutions. Experienced
+                        in automation and cloud-based application development <a href="https://www.linkedin.com/in/aarevalom/">
+                        More Information.</a> .
+                    </p>
+                    <div class="d-flex justify-content-start">
+
+                        <a href="CV.pdf" download="Anderson_CV.pdf" class="btn btn-primary me-3">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/aarevalom/" target="_blank" class="btn btn-outline-secondary me-3">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+
+                        <a href="https://github.com/aarevalom0" target="_blank" class="btn btn-outline-secondary me-3">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+
+                        <a href="mailto:a.arevalom@outlook.com" class="btn btn-outline-secondary">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Experience Section -->
+                <div class="section-card" id="experience">
+                    <h2>Professional Experience</h2>
+                    <ul>
+                        <li><i class="fas fa-briefcase icon"></i><strong>Software Engineer at Soletanche Bachy Colombia S.A.S</strong> (June 2023 – August 2024)</li>
+                        <ul>
+                            <li>Lead development of applications using Microsoft Power Apps and Power Automate, streamlining business processes and enhancing operational efficiency.</li>
+                            <li>Developed an automated cloud-based workflow for contract management, implementing automatic notifications for policy expirations, enhancing contract com-pliance and reducing manual follow-ups.</li>
+                        </ul>
+                        
+                    </ul>
+                </div>
+
+                <!-- Education Section -->
+                <div class="section-card" id="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li><i class="fas fa-graduation-cap icon"></i><strong>Bachelor’s Degree in Systems and Computer Engineering</strong> – Andes University (2022 - Present)</li>
+                        <li><i class="fas fa-graduation-cap icon"></i><strong>Bachelor’s Degree in Biomedical Engineering</strong> – Andes University (2020 - Present)</li>
+                    </ul>
+                </div>
+
+                <!-- Certifications Section -->
+                <div class="section-card" id="certification">
+                    <h2>Certifications</h2>
+                    <ul>
+                        <li><i class="fas fa-graduation-cap icon"></i><strong> <a href="https://learn.nvidia.com/certificates?id=5xfIYc66SMOeP3K4FDQCWw">Fundamentals of Deep Learning</a></strong> – NVIDIA (October 2024)</li>
+                        <li><i class="fas fa-graduation-cap icon"></i><strong> <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=DE898215A524C59F039098F767733EFDC3BD8F190372EC8E71C17CF0D4E3B397">Oracle Cloud Infrastructure 2024 Generative AI Certified Professional</a></strong> Oracle (July - 2024)</li>
+                    </ul>
+                </div>
+                <!-- Skills Section -->
+                <div class="section-card skills-card" id="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>TensorFlow</li>
+                        <li>PyTorch</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+
+                <!-- Projects Section -->
+                <div class="section-card" id="projects">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li><i class="fas fa-code icon"></i><a href="https://aarevalom0.github.io/NASA-APPS-CHALENGE-2024-Seismic-Detection-Across-the-Solar-System/">Seismic Detection with AI Model</a> - Developed a supervised machine learning model using the K-Nearest Neighbors(KNN) algorithm to predict earthquakes in mars..</li>
+                    </ul>
+                </div>
+
+                <!-- Contact Section PENDIENTE -->
+                <div class="section-card" id="form" >
+                    <div class="col-md-12">
+                        <h3>subscribe</h3>
+                        <form class="form-contacto">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                            </div>
+                        
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </form>
+                    </div>
+                </div>
+
+
+                <!-- Footer -->
+                <div class="footer">
+                    <p>Contact: a.arevalom@outlook.com | +57 322 764 0186</p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/aarevalom/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/aarevalom0"><i class="fab fa-github"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
